@@ -14,6 +14,12 @@
 		D64A7FA01B6F56E6008BA89F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64A7F9F1B6F56E6008BA89F /* Images.xcassets */; };
 		D64A7FA31B6F56E6008BA89F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D64A7FA11B6F56E6008BA89F /* LaunchScreen.xib */; };
 		D64A7FAF1B6F56E7008BA89F /* sjvideoEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64A7FAE1B6F56E7008BA89F /* sjvideoEffectTests.m */; };
+		D64A7FB91B6F5708008BA89F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64A7FB81B6F5708008BA89F /* OpenGLES.framework */; };
+		D64A7FBB1B6F5711008BA89F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64A7FBA1B6F5711008BA89F /* CoreVideo.framework */; };
+		D64A7FBD1B6F5719008BA89F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64A7FBC1B6F5719008BA89F /* QuartzCore.framework */; };
+		D64A7FBF1B6F571E008BA89F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64A7FBE1B6F571E008BA89F /* AVFoundation.framework */; };
+		D64A7FC11B6F5727008BA89F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64A7FC01B6F5727008BA89F /* CoreMedia.framework */; };
+		D64A7FC31B6F5733008BA89F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64A7FC21B6F5733008BA89F /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,12 @@
 		D64A7FA81B6F56E7008BA89F /* sjvideoEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sjvideoEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64A7FAD1B6F56E7008BA89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D64A7FAE1B6F56E7008BA89F /* sjvideoEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sjvideoEffectTests.m; sourceTree = "<group>"; };
+		D64A7FB81B6F5708008BA89F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D64A7FBA1B6F5711008BA89F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D64A7FBC1B6F5719008BA89F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D64A7FBE1B6F571E008BA89F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D64A7FC01B6F5727008BA89F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D64A7FC21B6F5733008BA89F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64A7FC31B6F5733008BA89F /* CoreAudio.framework in Frameworks */,
+				D64A7FC11B6F5727008BA89F /* CoreMedia.framework in Frameworks */,
+				D64A7FBF1B6F571E008BA89F /* AVFoundation.framework in Frameworks */,
+				D64A7FBD1B6F5719008BA89F /* QuartzCore.framework in Frameworks */,
+				D64A7FBB1B6F5711008BA89F /* CoreVideo.framework in Frameworks */,
+				D64A7FB91B6F5708008BA89F /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,12 @@
 		D64A7F861B6F56E6008BA89F = {
 			isa = PBXGroup;
 			children = (
+				D64A7FC21B6F5733008BA89F /* CoreAudio.framework */,
+				D64A7FC01B6F5727008BA89F /* CoreMedia.framework */,
+				D64A7FBE1B6F571E008BA89F /* AVFoundation.framework */,
+				D64A7FBC1B6F5719008BA89F /* QuartzCore.framework */,
+				D64A7FBA1B6F5711008BA89F /* CoreVideo.framework */,
+				D64A7FB81B6F5708008BA89F /* OpenGLES.framework */,
 				D64A7F911B6F56E6008BA89F /* sjvideoEffect */,
 				D64A7FAB1B6F56E7008BA89F /* sjvideoEffectTests */,
 				D64A7F901B6F56E6008BA89F /* Products */,
